@@ -35,16 +35,16 @@ class MainActivity : AppCompatActivity() {
 
         // ARRAY OF MOOD
         val moods = arrayOf(
-            "Happy",
-            "Sad",
-            "Tired",
-            "Anxious",
-            "Angry",
-            "Relaxed",
-            "Excited",
-            "Bored",
-            "Stressed",
-            "Curious"
+            "happy",
+            "sad",
+            "tired",
+            "anxious",
+            "angry",
+            "relaxed",
+            "excited",
+            "bored",
+            "stressed",
+            "curious"
         )
         // ARRAY OF ACTIVITIES
 
@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         }
         // INFO button gives to the user detailed information about the app when clicked
         infoBtn.setOnClickListener {
-            val intent = Intent(this, Info::class.java)
+            val intent = Intent(this, info::class.java)
             startActivity(intent)
         }
 

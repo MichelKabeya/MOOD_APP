@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/advent_pro_medium"
@@ -106,7 +106,7 @@
         app:layout_constraintHorizontal_bias="0.971"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.061"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -124,7 +124,7 @@
         app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.124" />
 
     <EditText
         android:id="@+id/inputText"
@@ -133,7 +133,6 @@
         android:backgroundTint="#FBF8F8"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
         android:textAlignment="center"
         android:textColor="#F8F7F7"
         android:textSize="20sp"
@@ -141,10 +140,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252" />
+        app:layout_constraintVertical_bias="0.252"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/prompText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/advent_pro_medium"

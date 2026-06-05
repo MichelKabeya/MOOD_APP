@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".info">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="397dp"
+        android:layout_height="510dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="47dp"
+        android:text="Mood is a simple and intelligent mobile application designed to help users improve their daily well-being by recommending activities based on how they feel.  The app allows users to select or enter their current mood, such as happy, sad, stressed, tired, anxious, excited, bored, or relaxed. Using this information, Mood analyzes the user's emotional state and instantly suggests suitable activities that can enhance positive feelings or help manage challenging emotions.  Key Features Mood Tracking Easily record your current mood with a single tap. Choose from a variety of emotions or enter a custom mood. Personalized Activity Suggestions Receive recommendations tailored to your emotional state. Examples: Happy: Share your positivity, try a creative project, or go for a walk. Sad: Listen to uplifting music, talk to a friend, or practice gratitude. Tired: Take a short nap, stretch, or do a breathing exercise. Stressed: Try meditation, yoga, or a relaxing activity. Bored: Discover a new hobby, read an article, or play a brain game. Simple and User-Friendly Interface Clean design for quick and easy interaction. Instant recommendations without complicated settings. Wellness Support Encourages healthy habits and self-care. Helps users become more aware of their emotional well-being."
+        android:textAlignment="textStart"
+        android:textColor="#7C7575"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adlam_display"
+        android:text="Description"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="54dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>

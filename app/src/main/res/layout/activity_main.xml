@@ -10,14 +10,70 @@
 
     <TextView
         android:id="@+id/activityText"
-        android:layout_width="324dp"
-        android:layout_height="167dp"
-        android:text="Hello World!"
+        android:layout_width="351dp"
+        android:layout_height="218dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:lineSpacingExtra="0sp"
+        android:text="Mood is a smart wellness app that suggests activities based on how you're feeling. Simply select your current mood—happy, sad, tired, stressed, bored, or more—and receive personalized recommendations to help improve your well-being, boost your energy, or make the most of your day.  &quot;Choose your mood. Discover the perfect activity.&quot;"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#F4F2F2"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.402" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="MOOD ACTIVITY"
+        android:textColor="#FBFBFB"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="174dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="GET"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="174dp"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="GO"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

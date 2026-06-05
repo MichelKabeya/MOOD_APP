@@ -64,13 +64,16 @@ class MainActivity : AppCompatActivity() {
             getBtn.visibility = Button.VISIBLE
             inputText.visibility = EditText.VISIBLE
             promptText.visibility = TextView.VISIBLE
-            activityText.text = ""
+            activityText.text = "" // make the textView empty so that it bears the new activity
         }
 
         getBtn.setOnClickListener {
             val mood = inputText.text.toString()
-            val index = moods.indexOf(mood)
-            if ()
+            val index = moods.indexOf(mood) // variable that holds the index of the mood
+            // selected by the user
+            if (index != -1) {
+              activityText.text = activities[index]
+            }
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

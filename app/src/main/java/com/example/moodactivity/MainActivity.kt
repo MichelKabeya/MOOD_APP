@@ -1,5 +1,6 @@
 package com.example.moodactivity
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -11,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -99,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         }
         // INFO button gives to the user detailed information about the app when clicked
         infoBtn.setOnClickListener {
-            val intent = Intent(this, info::class.java)
+            val intent = Intent(this, Info::class.java)
             startActivity(intent)
         }
 
